@@ -23,7 +23,7 @@ def join_nested_strings(src)
     i = 0 
     while i < src[row].length do
       if src[row][i].class == String 
-        string << src[row][i]
+        strings << src[row][i]
         i += 1 
       end
       i += 1 
