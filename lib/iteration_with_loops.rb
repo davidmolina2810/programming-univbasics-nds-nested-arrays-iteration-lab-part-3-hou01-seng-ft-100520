@@ -8,5 +8,12 @@ def join_nested_strings(src)
     #4. set index counter to loop through elements in AoA[row]
     #5. loop through elements in AoA[row]
       #6. if element.class == String 
-        #7. 
+        #7. strings << element
+        #8. increment element
+      #end
+      #9. increment element
+    #end
+    #10. increment row 
+  #end
+  #11. strings.join(" ")
 end
