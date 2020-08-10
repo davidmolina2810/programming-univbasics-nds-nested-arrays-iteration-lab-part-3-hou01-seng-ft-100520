@@ -9,13 +9,12 @@ def join_nested_strings(src)
     #5. loop through elements in AoA[row]
       #6. if element.class == String 
         #7. strings << element
-        #8. increment element
       #end
-      #9. increment element
+      #8. increment element
     #end
-    #10. increment row 
+    #9. increment row 
   #end
-  #11. strings.join(" ")
+  #10. strings.join(" ")
   
   strings = []
   row = 0 
