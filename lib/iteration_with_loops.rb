@@ -32,4 +32,3 @@ def join_nested_strings(src)
   end
   strings.join(" ")
 end
-end
