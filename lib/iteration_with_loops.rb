@@ -16,4 +16,20 @@ def join_nested_strings(src)
     #10. increment row 
   #end
   #11. strings.join(" ")
+  
+  strings = []
+  row = 0 
+  while row < src.length do
+    i = 0 
+    while i < src[row].length do
+      if src[row][i].class == String 
+        string << src[row][i]
+        i += 1 
+      end
+      i += 1 
+    end
+    row += 1 
+  end
+  strings.join(" ")
+end
 end
